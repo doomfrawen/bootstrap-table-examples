@@ -10,6 +10,7 @@
     <script src="../assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="../assets/bootstrap-table/src/bootstrap-table.js"></script>
     <script src="../assets/bootstrap-table/src/extensions/filter-control/bootstrap-table-filter-control.js"></script>
+    <script src="../assets/bootstrap-table/src/extensions/cookie/bootstrap-table-cookie.js"></script>
     <script src="../ga.js"></script>
 </head>
 <body>
@@ -19,7 +20,9 @@
            data-toggle="table"
            data-url="../json/data1.json"
            data-filter-control="true"
-           data-filter-show-clear="true">
+           data-filter-show-clear="true"
+           data-cookie="true"
+           data-cookie-id-table="saveId">
         <thead>
         <tr>
             <th data-field="id">ID</th>
